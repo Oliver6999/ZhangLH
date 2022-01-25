@@ -1,0 +1,4 @@
+
+<launch>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ldlidar_usb)/rviz/ldlidar.rviz"/>
+</launch>
